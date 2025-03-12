@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" type="text/css" href="css/contactform.css">
+    <title>Heini Emilia - Portfolio</title>
+</head>
+<body>
+ 
+  <main>
+
+    <section id="navigation">
+      <div class="desktop-navigation">
+          <div class="navigation">
+              <nav id="navbar">
+                  <a href="aboutme.html">about me</a>
+                  <a href="portfolio.html">portfolio</a>
+                  <a href="index.html#contact">contact</a>
+              </nav>
+          </div>
+      </div>
+      <div class="mobile-navigation">
+          <nav id="mobile-navigation">
+              <div id="menuToggle">
+                <input type="checkbox" id="menuCheckbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                
+                <ul id="menu">
+                  <li>
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li>
+                    <a href="aboutme.html">About me</a>
+                  </li>
+                  <li>
+                    <a href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li>
+                    <a href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+      </div>
+    </section>
+
+    <section id="hero">
+      <div class="hero-video-container">
+          <video id="hero-video" autoplay muted loop>
+          <source src="/graphics/hero-video-2.mp4" type="video/mp4">
+          </video>
+      </div>
+
+      <div class="hero-content">
+              <a href="index.html"><img id="hero-logo" class="fade-in" src="/graphics/heini-emilia-logo.png" alt="Heini Emilia"></a>
+              <h1 id="hero-text" class="fade-in">I'm a web designer. This is my portfolio</h1>
+      </div>
+    </section>
+
+    <section id="introduction">
+        <div class="introduction-container">
+            <img id="introduction-img" src="/graphics/introduction-img-no-background.png" alt="Kuva minusta">
+            <div class="introduction-text">
+                <h2>Hello, I'm Heini!<h2>
+                <p>I'm a former florist in the beginning of my new career journey as a web developer.
+                  Currently I'm studying for a bachelor's degree in Business Information Technology.
+                  <br><br>
+                  Creating visually pleasing yet functional and user-friendly websites is something that I really enjoy. 
+                  I've always been creative and aspired to be some kind of designer, but just couple of years ago found a passion for coding. 
+                  I love the combination of problem solving and designing something pretty.
+                  <br><br>
+                  Can't wait to see where this journey takes me! 
+                </p>
+                <a href="/aboutme.html">
+                  <button class="introduction-button" type="button">Read more about me</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+  <section id="recent-projects">
+    <h2>My latest projects</h2>
+    <div class="recent-projects-container">
+      <div class="project">
+        <a href="jewelbox.html"><img class="project-img" src="/graphics/project-pic-jewelbox.png" alt="Jewelbox webshop"></a>
+        <div class="coming-text jewelbox">
+          <a href="jewelbox.html">
+            <h3>Jewelbox</h3>
+            <p>Webshop development<br> for a jewellery brand <br><br>
+            Technologies:<br> Shopify, HTML, <br>
+             CSS, Figma</p>
+          </a>
+        </div>
+      </div>
+      <div class="project">
+        <a><img class="project-img coming" src="/graphics/project-img-florist.png" alt="Florist website"></a>
+        <div class="coming-text">
+          <h3>Coming soon</h3>
+        </div>
+      </div>
+      <div class="project">
+        <a ><img class="project-img coming" src="/graphics/project-img-festival.png" alt="Festival website"></a>
+        <div class="coming-text">
+          <h3>Coming soon</h3>
+        </div>
+      </div>
+    </div>
+    <div class="recent-projects-see-more">
+    <a href="/portfolio.html">See more projects in my portfolio</a>
+    </div>
+  </section>
+
+  <section id="contact">
+      <h2>Let's get in touch</h2>
+
+      <p style="padding-bottom: 50px">This contact form is not yet functional!<br> 
+        Please contact me via email: heiniemilya@outlook.com</p>
+
+<!------------------------------ CONTACT FORM ---------------------------------->
+      <div class="contact1">
+        <div class="container-contact1">
+    
+            <div class="wrap-input1 validate-input" data-validate = "Name is required">
+              <input class="input1" type="text" name="name" placeholder="Name">
+              <span class="shadow-input1"></span>
+            </div>
+    
+            <div class="wrap-input1 validate-input" data-validate = "Valid email is required!">
+              <input class="input1" type="text" name="email" placeholder="Email">
+              <span class="shadow-input1"></span>
+            </div>
+    
+            <div class="wrap-input1 validate-input" data-validate = "Subject is required">
+              <input class="input1" type="text" name="subject" placeholder="Subject">
+              <span class="shadow-input1"></span>
+            </div>
+    
+            <div class="wrap-input1 validate-input" data-validate = "Message is required">
+              <textarea class="input1" name="message" placeholder="Message"></textarea>
+              <span class="shadow-input1"></span>
+            </div>
+    
+            <div class="container-contact1-form-btn">
+              <button class="contact1-form-btn">
+                <span>
+                  Send Email
+                  <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+<!--------------------------------- CONTACT FORM ------------------------------------>
+ 
+
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <img class="footer-background" src="/graphics/footer-background.png" alt="Background image">
+     
+      <div class="footer-items">
+        <div class="some-icons">
+          <a href="https://www.linkedin.com/in/heini-karjalainen/"><img class="linkedin-icon" src="/graphics/icon-linkedin.png" height="30px" width="30px" alt="LinkedIn"></a>
+          <a href="https://github.com/heiniemilya"><img class="github-icon" src="/graphics/icon-github.png" height="30px" width="30px" alt="GitHub"></a>
+          <a href="mailto:heiniemilya@outlook.com"><img class="email-icon" src="/graphics/icon-email.png" height="30px" width="30px" alt="Email"></a>
+        </div>
+        <div class="footer-items-container">
+          <div class="footer-information">
+            <p>Heini Emilia</p>
+            <p>Web designer</p>
+            <p>Vantaa, Uusimaa</p>
+          </div>
+          <div class="footer-logo">
+            <a href="index.html"><img id="footer-logo" src="/graphics/heini-emilia-logo.png" alt="Heini Emilia"></a>
+          </div>
+          <div class="footer-navigation">
+            <a href="aboutme.html">about me</a>
+            <a href="portfolio.html">portfolio</a>
+            <a href="#contact">contact</a>
+          </div>
+        </div> 
+      </div>
+      
+
+    </div>
+  </footer>
+</body>
+</html>
