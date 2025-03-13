@@ -801,7 +801,7 @@ filter: grayscale(100%);
   }
 
   .project-container-portfolio{
-    margin-top: -200px;
+    margin-top: 0px;
   }
 
   #portfolio h2 {
