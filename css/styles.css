@@ -330,7 +330,7 @@ a {
 .introduction-button {
   font-size: 15px;
   letter-spacing: 0.5px;
-  background: #A8A074;
+  background: #8c855b;
   color: #F6F4F4;
   padding: 15px 30px;
   border-radius: 50px;
@@ -338,7 +338,7 @@ a {
 }
 
 .introduction-button:hover {
-  background: #8f8653;
+  background: #7e7648;
   transform: scale(1.03);
 }
 

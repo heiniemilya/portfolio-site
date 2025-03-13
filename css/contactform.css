@@ -131,7 +131,7 @@ textarea.input1 +  {
   min-width: 193px;
   height: 50px;
   border-radius: 25px;
-  background: #A8A074;
+  background: #8c855b;
   font-size: 16px;
   line-height: 1.5;
   color: #fff;
@@ -159,7 +159,7 @@ textarea.input1 +  {
 }
 
 .contact1-form-btn:hover {
-  background: #8f8653;
+  background: #7e7648;
 }
 
 .contact1-form-btn:hover i {
