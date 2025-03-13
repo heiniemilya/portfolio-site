@@ -113,7 +113,7 @@ a {
   margin-bottom: 5px;
   position: relative;
   background-color: #1c0b2f;
-  opacity: 0.8;
+  opacity: 0.9;
   border-radius: 3px;
   z-index: 1;
   
@@ -841,6 +841,7 @@ filter: grayscale(100%);
     top: 97% !important;
     margin-right: 80px;
     margin-left: 80px;
+    width: 20px !important;
   }
   
 }
@@ -941,16 +942,16 @@ filter: grayscale(100%);
 @media only screen and (max-width: 800px) {
 
 .project-introduction-container{
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .project-introduction-text{
   margin-bottom: 30px;
 }
 
 .about-project-container{
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .about-project-text{
   margin-top: 30px;
@@ -1008,8 +1009,8 @@ filter: grayscale(100%);
 
   .introduction-text {
     margin-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
     text-align: center;
     max-width: 600px;
   }
@@ -1035,15 +1036,15 @@ filter: grayscale(100%);
   .aboutme-text {
     margin-top: 0;
     margin-bottom: 50px;
-    padding: 50px;
+    padding: 30px;
     text-align: center;
   }
 
   /* cv vertically */
   .cv-container{
     flex-wrap: wrap;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
     gap: 60px;
   }
   .cv-text{
