@@ -781,21 +781,27 @@ filter: grayscale(100%);
     transform: scale(0.9);
   }
 
+  /* recent projects vertically scale 85 */
+  .recent-projects-container{
+    grid-template-columns: 1fr;
+    transform: scale(0.85);
+  }
 
-    /* img carousel visibility */
-    #image-carousel-desktop{
-      display: none;
-    }
-  
-    .splide__slide img {
-      height: 440px;
-      width: 330px;
-    }
-  
-    .splide.mobile {
-      height: 490px ;
-      width: 350px;
-    }
+
+  /* img carousel visibility */
+  #image-carousel-desktop{
+    display: none;
+  }
+
+  .splide__slide img {
+    height: 440px;
+    width: 330px;
+  }
+
+  .splide.mobile {
+    height: 490px ;
+    width: 350px;
+  }
 
 }
 
