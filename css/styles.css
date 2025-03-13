@@ -767,12 +767,12 @@ filter: grayscale(100%);
 
   #hero {
     min-height: fit-content;
-    max-height: 100vh;
+    max-height: 95vh;
   }
 
   .hero-video{
     min-height: fit-content;
-    max-height: 100vh;
+    max-height: 95vh;
   }
 
   #hero-logo {
