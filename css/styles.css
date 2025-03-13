@@ -766,7 +766,13 @@ filter: grayscale(100%);
   }
 
   #hero {
-    min-height: 100vh;
+    min-height: fit-content;
+    max-height: 100vh;
+  }
+
+  .hero-video{
+    min-height: fit-content;
+    max-height: 100vh;
   }
 
   #hero-logo {
