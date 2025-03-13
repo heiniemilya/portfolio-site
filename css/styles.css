@@ -834,13 +834,13 @@ filter: grayscale(100%);
 
   .splide.mobile {
     height: 450px ;
-    width: 300px;
+    width: 325px;
   }
 
   .splide__arrow {
     top: 97% !important;
-    margin-right: 80px;
-    margin-left: 80px;
+    margin-right: 60px;
+    margin-left: 60px;
     width: 1.5em !important;
   }
   
