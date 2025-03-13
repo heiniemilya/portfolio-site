@@ -5,8 +5,11 @@
 
 @font-face {
     font-family: Edensor;
-    src: url(fonts/edensor-free.otf);
-}
+    src: url(fonts/edensor-free.otf),
+	url(fonts/edensor-free.eot), 
+	url(fonts/edensor-free.woff2), 
+	url(fonts/edensor-free.woff),
+	url(fonts/edensor-free.svg),
 
 body {
   background-color: #EBE8E8;
