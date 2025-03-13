@@ -4,7 +4,7 @@
 }
 
 @font-face {
-    font-family: Edensor;
+    font-family: "Edensor";
 	src: url(fonts/edensor-free.eot); /* IE9 Compat Modes */
   	src: url((fonts/edensor-free.woff2) format('woff2'), /* Super Modern Browsers */
 		url(fonts/edensor-free.woff) format('woff'), /* Pretty Modern Browsers */
