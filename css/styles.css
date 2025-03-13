@@ -800,6 +800,7 @@ filter: grayscale(100%);
     padding-bottom: 0;
   }
   .recent-projects-see-more {
+    padding-top: 0;
     padding-bottom: 0;
   }
 
