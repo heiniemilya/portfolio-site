@@ -5,12 +5,12 @@
 
 @font-face {
     font-family: "Edensor";
-	  src: url('/fonts/edensor-free.eot'); /* IE9 Compat Modes */
-  	src: url('/fonts/edensor-free.eot') format('embedded-opentype'),
-    url('/fonts/edensor-free.woff2') format('woff2'), /* Super Modern Browsers */
-    url('/fonts/edensor-free.woff') format('woff'), /* Pretty Modern Browsers */
-    url('/fonts/edensor-free.ttf')  format('truetype'), /* Safari, Android, iOS */
-    url('/fonts/edensor-free.svg') format('svg'); /* Legacy iOS */
+	  src: url('../fonts/edensor-free.eot'); /* IE9 Compat Modes */
+  	src: url('../fonts/edensor-free.eot') format('embedded-opentype'),
+    url('../fonts/edensor-free.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/edensor-free.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/edensor-free.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/edensor-free.svg') format('svg'); /* Legacy iOS */
 	}
 
 body {
