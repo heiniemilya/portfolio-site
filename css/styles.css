@@ -162,7 +162,7 @@ a {
   box-sizing: border-box;
   overflow-y: auto;
   background-color: #5F3848;
-  opacity: 0.9;
+  opacity: 0.95;
   border-radius: 0 0 0 100px;
   list-style-type: none;
   -webkit-font-smoothing: antialiased; /* to stop flickering of text in safari */
