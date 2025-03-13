@@ -809,19 +809,21 @@ filter: grayscale(100%);
   }
 
   /* recent projects vertically scale 85 */
-  .recent-projects-container{
+  .recent-projects-container {
     grid-template-columns: 1fr;
     transform: scale(0.85);
   }
+
   #recent-projects h2 {
     padding-bottom: 0;
   }
+
   .recent-projects-see-more {
     padding-top: 0;
   }
 
   /* img carousel visibility */
-  #image-carousel-desktop{
+  #image-carousel-desktop {
     display: none;
   }
 
@@ -835,6 +837,12 @@ filter: grayscale(100%);
     width: 325px;
   }
 
+  .splide__arrow {
+    top: 97% !important;
+    margin-right: 80px;
+    margin-left: 80px;
+  }
+  
 }
 
 @media only screen and (min-width: 600px) {
@@ -850,7 +858,7 @@ filter: grayscale(100%);
   }
 
   /* img carousel visibility */
-  #image-carousel-desktop{
+  #image-carousel-desktop {
     display: none;
   }
 
@@ -876,7 +884,7 @@ filter: grayscale(100%);
     min-height: 700px;
   }
 
-  .some-icons{
+  .some-icons {
     padding-top: 100px;
   }
 
