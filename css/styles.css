@@ -787,8 +787,11 @@ filter: grayscale(100%);
     transform: scale(0.85);
   }
   #potfolio {
-    margin-top: 100px;
     margin-bottom: 100px;
+  }
+
+  .project-container-portfolio{
+    margin-top: -200px;
   }
 
   #portfolio h2 {
