@@ -880,6 +880,7 @@ filter: grayscale(100%);
   }
   #hero-logo {
     width: 80vw;
+    transform: translateY(0px); 
   }
 
  }
@@ -983,6 +984,7 @@ filter: grayscale(100%);
 
   #hero-logo {
     width: 60vw; 
+    transform: translateY(-40px); 
   }
 }
 
@@ -1094,6 +1096,7 @@ filter: grayscale(100%);
 
   #hero-logo {
     width: 40vw; 
+    transform: translateY(-100px); 
   }
 }
 
