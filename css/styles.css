@@ -787,11 +787,11 @@ filter: grayscale(100%);
   }
 
   #hero-logo {
-    width: 40vw; 
-    transform: translate(-50%, -50%) translateY(0px) scale(1.03); 
+    width: 80vw; 
+    transform: translate(-50%, -50%) translateY(-20px) scale(1.03); 
   }
   #hero-logo:hover {
-    transform: translate(-50%, -50%) translateY(0px) scale(1.03);
+    transform: translate(-50%, -50%) translateY(-20px) scale(1.03);
   }
 
   #introduction-img {
