@@ -312,6 +312,7 @@ a {
   left: 50%;
   transform: translateX(-50%); 
   text-align: center;
+  width: 100vw;
   max-width: 800px;
   min-width: 250px;
 }
