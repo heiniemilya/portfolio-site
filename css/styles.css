@@ -781,14 +781,6 @@ filter: grayscale(100%);
 
   #hero-logo {
     width: 80vw;
-    height: auto;
-  }
-  #hero {
-    max-height: 600px;
-  }
-
-  #hero-video {
-    max-height: 600px;
   }
 
   #introduction-img {
@@ -877,6 +869,10 @@ filter: grayscale(100%);
     height: 490px ;
     width: 380px;
   }
+  #hero-logo {
+    width: 80vw;
+  }
+
  }
 
 /* footer vertically */
@@ -949,8 +945,7 @@ filter: grayscale(100%);
 }
 
 #hero-logo {
-  width: 80vw;
-  height: auto;
+  width: 60vw; 
 }
 
 }
