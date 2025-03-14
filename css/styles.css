@@ -314,7 +314,7 @@ a {
   text-align: center;
   width: 100vw;
   max-width: 800px;
-  min-width: 250px;
+  min-width: 400px;
 }
 
 /*////////////////// HERO ////////////////////*/
@@ -1123,7 +1123,7 @@ filter: grayscale(100%);
     grid-template-columns: 1fr 1fr 1fr;;
     transform: scale(1);
   }
-
+}
 @media only screen and (min-width: 1200px) {
   .splide.desktop {
     height: 750px;
@@ -1169,7 +1169,6 @@ filter: grayscale(100%);
 		opacity: 100%;
 	}
 }
-
 /* transition: all 0.5s ease-out;*/
 
 /*////////////// ANIMATIONS ////////////////*/
