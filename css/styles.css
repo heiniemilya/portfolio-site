@@ -256,7 +256,7 @@ a {
   width: 100vw;
   height: 100vh;
   min-height: 700px;
-  top:-70px;
+  margin-top: -70px;
 }
 
 .hero-video-container {
