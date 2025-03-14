@@ -28,8 +28,8 @@ h1 {
   letter-spacing: 1.5px;
   color: #1C0B2F;
   font-weight: normal;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 h2 {
@@ -500,8 +500,9 @@ filter: grayscale(100%);
   }
 
   .project-img {
-    filter: brightness(0) saturate(100%) invert(91%) sepia(7%) saturate(1388%) hue-rotate(279deg) brightness(82%) contrast(76%);
-  }
+    opacity: 50%;
+    filter: brightness(0) saturate(100%) invert(35%) sepia(7%) saturate(4222%) hue-rotate(242deg) brightness(114%) contrast(68%);
+    }
 }
 
 .project-img {
@@ -529,7 +530,7 @@ filter: grayscale(100%);
 }
 
 .recent-projects-see-more a:hover {
-  color: #a37f9a ;
+  color: #ab8ecd ;
   text-decoration: underline #ab8ecd;
 
 }
