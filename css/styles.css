@@ -788,10 +788,6 @@ filter: grayscale(100%);
     padding-right: 20px;
   }
 
-  #hero-logo {
-    width: 80vw;
-  }
-
   #introduction-img {
     max-width: 90vw !important;
     height: auto;
@@ -880,7 +876,10 @@ filter: grayscale(100%);
   }
   #hero-logo {
     width: 80vw;
-    transform: translate(-50%, -50%) translateY(0px) scale(1.03);; 
+    transform: translate(-50%, -50%) translateY(0px) scale(1.03);
+  }
+  #hero-logo:hover {
+    transform: translate(-50%, -50%) translateY(0px) scale(1.03);
   }
 
  }
@@ -984,7 +983,11 @@ filter: grayscale(100%);
 
   #hero-logo {
     width: 60vw; 
-    transform: translate(-50%, -50%) translateY(-40px) scale(1.03);
+    transform: translate(-50%, -50%) translateY(-50px) scale(1.03);
+  }
+
+  #hero-logo:hover {
+    transform: translate(-50%, -50%) translateY(-50px) scale(1.03);
   }
 }
 
@@ -1099,6 +1102,9 @@ filter: grayscale(100%);
   #hero-logo {
     width: 40vw; 
     transform: translate(-50%, -50%) translateY(-100px) scale(1.03); 
+  }
+  #hero-logo:hover {
+    transform: translate(-50%, -50%) translateY(-100px) scale(1.03);
   }
 }
 
