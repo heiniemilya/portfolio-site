@@ -788,10 +788,10 @@ filter: grayscale(100%);
 
   #hero-logo {
     width: 80vw; 
-    transform: translate(-50%, -50%) translateY(-20px) scale(1.03); 
+    transform: translate(-50%, -50%) translateY(-50px) scale(1.03); 
   }
   #hero-logo:hover {
-    transform: translate(-50%, -50%) translateY(-20px) scale(1.03);
+    transform: translate(-50%, -50%) translateY(-50px) scale(1.03);
   }
 
   #introduction-img {
@@ -882,10 +882,10 @@ filter: grayscale(100%);
   }
   #hero-logo {
     width: 80vw;
-    transform: translate(-50%, -50%) translateY(-40px) scale(1.03);
+    transform: translate(-50%, -50%) translateY(-50px) scale(1.03);
   }
   #hero-logo:hover {
-    transform: translate(-50%, -50%) translateY(-40px) scale(1.03);
+    transform: translate(-50%, -50%) translateY(-50px) scale(1.03);
   }
 
  }
@@ -989,11 +989,11 @@ filter: grayscale(100%);
 
   #hero-logo {
     width: 60vw; 
-    transform: translate(-50%, -50%) translateY(-60px) scale(1.03);
+    transform: translate(-50%, -50%) translateY(-70px) scale(1.03);
   }
 
   #hero-logo:hover {
-    transform: translate(-50%, -50%) translateY(-60px) scale(1.03);
+    transform: translate(-50%, -50%) translateY(-70px) scale(1.03);
   }
 }
 
