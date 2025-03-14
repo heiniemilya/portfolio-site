@@ -1029,12 +1029,14 @@ filter: grayscale(100%);
 
   #aboutme-img {
     width: 70vw;
+    max-width: 500px;
     height: auto;
     margin-bottom: 0;
     padding-left: 0;
   }
 
   .aboutme-text {
+    max-width: 600px;
     margin-top: 0;
     margin-bottom: 50px;
     padding: 30px;
