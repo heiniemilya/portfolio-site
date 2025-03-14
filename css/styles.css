@@ -28,8 +28,8 @@ h1 {
   letter-spacing: 1.5px;
   color: #1C0B2F;
   font-weight: normal;
-  padding-left: 40px;
-  padding-right: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 h2 {
