@@ -1054,7 +1054,7 @@ filter: grayscale(100%);
     max-width: 550px;
     margin-top: 0;
     margin-bottom: 50px;
-    padding: 30px;
+    padding-top: 30px;
     text-align: center;
   }
 
