@@ -277,6 +277,7 @@ a {
   width: 100vw;
   height: 100vh;
   min-height: 700px;
+  background-color: #b198b3;
 }
 
 .hero-content {
@@ -793,6 +794,11 @@ filter: grayscale(100%);
   #hero-logo:hover {
     transform: translate(-50%, -50%) translateY(-50px) scale(1.03);
   }
+
+  #hero-text {
+    bottom: 70px;
+  }
+
 
   #introduction-img {
     max-width: 90vw !important;
